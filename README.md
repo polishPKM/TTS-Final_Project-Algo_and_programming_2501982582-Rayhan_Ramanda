@@ -1,4 +1,2 @@
-OOP_Forum_Exercise_Rayhan
+Final Project Python TTS by Rayhan Ramanda
 2501982582 - Rayhan Ramanda
-
-RR = Rayhan Ramanda
