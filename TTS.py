@@ -24,17 +24,17 @@ def tts():
     speech = gTTS(text=message)
     speech.save("speech.mp3")
     playsound("speech.mp3")
-
+#for exit  button
 def Exit():
     root.destroy()
-
+#for reseting the text boxes
 def Reset():
     Msg.set("")
 
-
+#buttons and its command
 Button(root, text="Play", command=tts, width=3).place(x=20, y=140)
 Button(root, text="Exit", command=Exit, width=3).place(x=80, y=140)
 Button(root, text="Reset", command=Reset, width=3).place(x=140, y=140)
 
-
+#to make sure the window not close after 0.01 nanosecond when running the application
 root.mainloop()
